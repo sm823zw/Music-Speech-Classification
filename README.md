@@ -1,6 +1,6 @@
 # Music-Speech-Classification
 
-### Unsupervised Music Speech Classification using Gaussian Mixture Models (EM algorithm)
+### Unsupervised Music Speech Classification using Gaussian Mixture Models (Expectation Maximization algorithm)
 
 Problem Description -
 
