@@ -4,7 +4,7 @@ Unsupervised Music Speech Classification using Gaussian Mixture Models (EM algor
 Problem Description -
 
 A set of training and test examples of music and speech are provided.
-http : //www.leap.ee.iisc.ac.in/sriram/teaching/MLSP21/assignments/speechMusicData.tar.gz
+www.leap.ee.iisc.ac.in/sriram/teaching/MLSP21/assignments/speechMusicData.tar.gz
 
 Using these examples,
   a) Generate spectrogram features - Use the log magnitude spectrogram as before with a 64 component magnitude FFT (NFFT). In this case, the spectrogram will have
