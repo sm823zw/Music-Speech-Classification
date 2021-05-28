@@ -1,5 +1,6 @@
 # Music-Speech-Classification
-Unsupervised Music Speech Classification using Gaussian Mixture Models (EM algorithm)
+
+### Unsupervised Music Speech Classification using Gaussian Mixture Models (EM algorithm)
 
 Problem Description -
 
@@ -11,3 +12,5 @@ Using these examples,
 dimension 32 times the number of frames (using 25 ms with a shift of 10 ms).
   b) Train two GMM models with K-means initialization (for each class) separately each with 5-mixture components with diagonal/full covariance respectively on this data. Plot the log-likelihood as a function of the EM iteration.
   c) Classify the test samples using the built classifiers and report the performance in terms of error rate (percentage of mis-classified samples) on the text data.
+
+### The EM algorithm used for training the GMMs was implemented from scratch using only numpy and without using sklearn library functions.
