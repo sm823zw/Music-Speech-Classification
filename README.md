@@ -14,3 +14,12 @@ dimension 32 times the number of frames (using 25 ms with a shift of 10 ms).
   c) Classify the test samples using the built classifiers and report the performance in terms of error rate (percentage of mis-classified samples) on the text data.
 
 ### The iterative algorithm used for training the GMMs was implemented from scratch using only numpy and without using sklearn library functions.
+
+Performance analysis - 
+
+| Number of GMM Components 	| Type of Covariance 	| Accuracy(in %) 	|
+|:--------------------:	|:----------:	|:--------------:	|
+|           2          	|    full    	|      83.33     	|
+|           2          	|  diagonal  	|      70.83     	|
+|           5          	|    full    	|      97.92     	|
+|           5          	|  diagonal  	|      64.58     	|
